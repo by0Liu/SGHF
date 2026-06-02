@@ -42,8 +42,7 @@ SGHF/
 │   └── kvasir_v2/
 │
 ├── assets/
-├── requirements.txt
-└── README.md
+└── requirements.txt
 ```
 
 ## Datasets
