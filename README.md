@@ -16,6 +16,16 @@ The whole pipeline contains two stages:
 * **Stage 2: SGHF training**
   The pretrained GazeFPN is used to generate gaze priors for the SGHF model. SGHF combines a CNN branch and a Transformer branch, and uses GMF and DBAT modules for global modeling and local--global feature fusion.
 
+## Architecture
+
+### Framework overview of SGHF
+
+![Framework overview of SGHF](assets/framework_sghf.png)
+
+### Architecture of GazeFPN
+
+![Architecture of GazeFPN](assets/architecture_gazefpn.png)
+
 ## Repository Structure
 
 ```text
@@ -50,7 +60,11 @@ Please download the datasets from their official sources and modify the dataset 
 
 ## Requirements
 
-The main experiments were conducted with Python and PyTorch. A basic environment can be prepared with:
+The code was tested with the following environment:
+
+Python 3.10 PyTorch 2.3.1 CUDA 12.1
+
+A basic environment can be prepared with:
 
 ```bash
 pip install -r requirements.txt
