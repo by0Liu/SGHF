@@ -143,8 +143,6 @@ The reported metrics include AUC, accuracy, precision, recall, and F1-score, dep
 
 This repository is organized according to the original two-stage experimental pipeline. Dataset-specific training files are kept separately to preserve the original experimental settings.
 
-Pretrained weights are available upon request.
-
 ## Citation
 
 ```bibtex
