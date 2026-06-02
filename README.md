@@ -40,13 +40,13 @@ SGHF/
 
 Please download the datasets from their official sources and modify the dataset paths in the corresponding `train.py` or `test.py` files.
 
-| Dataset                | Usage                          | Link                                                                        |
-| ---------------------- | ------------------------------ | --------------------------------------------------------------------------- |
-| REFLACX                | CXR gaze prediction            | https://doi.org/10.13026/e0dj-8498                                          |
-| ChestX-ray14           | CXR multi-label classification | https://niHVTHNet.app.box.com/v/ChestXray-NIHVTHNET                         |
-| RAD                    | CXR multi-class classification | https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database |
-| Colorectal Polyps Gaze | GI gaze prediction             | https://zenodo.org/records/13824600                                         |
-| Kvasir-V2              | GI multi-class classification  | https://datasets.simula.no/kvasir/                                          |
+| Dataset                | Usage                          | Link                                                                                   |
+| ---------------------- | ------------------------------ | -------------------------------------------------------------------------------------- |
+| REFLACX                | CXR gaze prediction            | https://doi.org/10.13026/e0dj-8498                                                     |
+| ChestX-ray14           | CXR multi-label classification | https://niHVTHNet.app.box.com/v/ChestXray-NIHVTHNET                                    |
+| RAD                    | CXR multi-class classification | https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database            |
+| Colorectal Polyps Gaze | GI gaze prediction             | https://zenodo.org/records/13824600                                                    |
+| Kvasir-V2              | GI multi-class classification  | https://www.kaggle.com/datasets/plhalvorsen/kvasir-v2-a-gastrointestinal-tract-dataset |
 
 ## Requirements
 
@@ -127,8 +127,6 @@ The reported metrics include AUC, accuracy, precision, recall, and F1-score, dep
 ## Notes
 
 This repository is organized according to the original two-stage experimental pipeline. Dataset-specific training files are kept separately to preserve the original experimental settings.
-
-Due to dataset licenses and storage limitations, datasets and pretrained weights are not included in this repository.
 
 ## Citation
 
