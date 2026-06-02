@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 torch
 torchvision
 numpy
@@ -5,4 +6,13 @@ opencv-python
 Pillow
 scikit-learn
 matplotlib
+=======
+torch
+torchvision
+numpy
+opencv-python
+Pillow
+scikit-learn
+matplotlib
+>>>>>>> 3527c18f2d5fd8c863eb2645efb845bee913457a
 tqdm
