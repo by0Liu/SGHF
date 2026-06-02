@@ -22,6 +22,8 @@ The whole pipeline contains two stages:
 
 ![Framework overview of SGHF](assets/framework_sghf.jpg)
 
+
+
 ### Architecture of GazeFPN
 
 ![Architecture of GazeFPN](assets/architecture_gazefpn.jpg)
