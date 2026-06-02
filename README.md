@@ -30,19 +30,21 @@ The whole pipeline contains two stages:
 
 ```text
 SGHF/
+├── assets/
+│
 ├── stage1_gazefpn/
-│   ├── models/
+│   ├── gi_gaze/
 │   ├── cxr_gaze/
-│   └── gi_gaze/
+│   └── models/
 │
 ├── stage2_sghf/
-│   ├── models/
 │   ├── chestxray14/
+│   ├── kvasir_v2/
 │   ├── rad/
-│   └── kvasir_v2/
+│   ├── models/
+│   └── utils/
 │
-├── assets/
-└── requirements.txt
+└── README.md
 ```
 
 ## Datasets
